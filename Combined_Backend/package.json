@@ -1,0 +1,22 @@
+{
+  "name": "combined_backend",
+  "version": "1.0.0",
+  "description": "combined backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "bhintuna",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "axios": "^1.7.2",
+    "base64-img": "^1.0.4",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.0",
+    "qrcode": "^1.5.3"
+  }
+}
