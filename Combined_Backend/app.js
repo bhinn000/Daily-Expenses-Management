@@ -22,9 +22,9 @@ const accountHolder = require("./controllers/accountHolder")
 // const axios=require("axios") 
 
 const mongoUrl=
-"mongodb+srv://020bim007:hello123@cluster0-nodejs.rrz0edi.mongodb.net/Combined?retryWrites=true&w=majority"
+process.env.mongoUrl
 
-const JWT_SECRET="8f31a198011b9a0203262c0f278a40ec15a5b2f313cb191af4be3692c8c8686a"
+const JWT_SECRET=process.env.JWT_SECRET
 
 //port number
 app.listen(5001,()=>{
